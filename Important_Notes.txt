@@ -1,0 +1,49 @@
+Important Python Notes...
+>>> Data Types...
+    1 >> NONE: wheen a variable is nnot assigned to any variable.
+    2 >>Numeric: (Int, float, bool, complex)
+        int ----> num = 5
+        complex ---> num = 6+9j
+    3 >> Sequence: (List, Tuple, Set, String, Range)
+        >> Immutable: ie Numbers, String, Tuple.
+        >> Mutable: ie List, Dictionary, Files.
+    4 >> Dictionary (Mapping)
+
+>>> Operators in Python...
+    1 >> Arithmetic Operators:
+    2 >> Assignment Operators:
+        eg: x=2, x=x+3, x+=3, a,b=3,5
+    3 >> Relational Operators:
+        a<b, a>b, a==b, a<=b, a>=b, a!=b etc...
+    4 >> Logical Operators: (true or false)
+        eg: a=5, b=4, we can compare: (a<6 and b>5), (a>4 or b==4), x=True, x = not x.
+        logical operators includes: and, or, not
+    5 >> Unary Operators:
+        n = 7, then you can also assign a negative value to n ie.. n = -n
+
+>>> String Operations...
+    >> Concatenation - '+' ie... 'I am going' + 'to school'.
+    >> Repetition - '*' ie... 'Bad'*5
+    >> str(i) ie type casting.
+
+    >>> String slicing...
+        >> a = 'Giant' ie... a[2:5] or a[-3:5] 0r a[-3:] or a[-3:-1] all prints out 'ant'.
+
+
+>>> To get help in python:
+    >> help() -----> then search whatever you want to know about.. either a topic or whatever, and you get full mannual of it.
+
+
+>>> Binaries...
+    >> bin(num) - to convert a number to binary( or base2), or 0b which is binary repr (where num represents any number eg 40, 20) etc..
+    >> oct(num) - to convert a number to octal(or base8) or 0o20 which is 16 -- ie oct(16) = 0o20.
+    >> hex(num) - to convert a number to hexadecimal(or base16) or 0xa which is 10, or 0xf which is 15
+
+
+>>> BitWise Operators....
+    1 >> Complement (tilde ~):
+    2 >> And (&)
+    3 >> Or (|)
+    4 >> XOR (^)
+    5 >> Left Shift (<<)
+    6 >> Right Shift (>>)
