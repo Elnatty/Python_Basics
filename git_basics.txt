@@ -1,0 +1,21 @@
+git init		>> to initialise the default branch (master).
+git status		>> to check for files available for commit.
+git add .		>> to add file content to the index. or
+	git commit -am "comment"
+git commit -m "comment" >> to record changes to repo.
+touch .gitignore	>> to create files to list items to ignore.
+git log			>> to check log.
+git checkout -b "name"	>> to create a new branch
+git checkout "branch name" >> to switch to particlar branch.
+git branch -M "newname" >> to rename branch name
+git checkout "br_name" "file_name" >> to copy file to another branch
+
+how to merge branches together...
+>> goto the branch you want to.. then;
+	$git merge "branch name"
+
+how to add a github repo-link using git:
+>> git remote add origin "https link"
+>> git push -u origin main
+
+git push origin "branch name" >> to push new branch to github.
